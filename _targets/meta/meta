@@ -1,0 +1,11 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|7cb612cbb4069ed9|||||||||||||||
+clean|function|7f826f9df7515ff0|||||||||||||||
+data_cleaned|stem|700ab0ba11f2deea|deb069325d95df54|115475f95f635b09|-133815597||t19969.3337569287s|a9beabbf8b155df9|1261|rds|local|vector|||0.016||
+file|stem|55e8e4d100ad5307|8f6c8dadd6f660d7|2c530c1562a7fbd1|1735323524|data_raw/mtcars.csv|t19969.3511230286s|c4dcdea9d160242c|1816|file|local|vector|||1.703|package tidyverse was built under R version 4.3.3. package ggplot2 was built under R version 4.3.3. package tibble was built under R version 4.3.3. package tidyr was built under R version 4.3.3. package readr was built under R version 4.3.3. package purrr was built under R version 4.3.3. package dplyr was built under R version 4.3.3. package stringr was built under R version 4.3.3. package forcats was built under R version 4.3.3. package lubridate was built under R version 4.3.3. package kableExtra was built under R version 4.3.3|
+file_names|object|42efab258a8629f0|||||||||||||||
+generate_plots|function|a70e9138b98a1f03|||||||||||||||
+models|stem|555622c0ea34096c|6153fbb11e8dcfae|c7045dbb61348d3a|-1655822660||t19969.3337571815s|318927635022c36e|2747|rds|local|vector|||0||
+plots|stem|340d8c8860d689e6|97f96cd5f0e1b189|b2673750e6235c33|765790996||t19969.3337589719s|b7cb4295a78174b9|131493|rds|local|vector|||0.078||
+report|stem|d1006000f6a15e9d|ed04cbeb9c97c8cf|91901565a1043d23|787668912|reports/template.html*reports/template.qmd|t19969.3512804352s|4a6a7b854cfa142d|1584619|file|local|vector|||10.516||
+run_models|function|3c542b05618ebb5e|||||||||||||||

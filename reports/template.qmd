@@ -6,8 +6,10 @@ author:
   affiliation:
   - "The Kids Research Institute Australia, Perth, WA, Australia"
 date: "`r format(Sys.time(), '%d %B %Y')`"
+title-block-banner: "#1F3B73"
 format:
   html:
+    embed-resources: true
     code-fold: true
     toc: true
     toc-location: left
@@ -16,6 +18,7 @@ format:
     self-contained: true
 reference-location: margin 
 citation-location: margin 
+css: css/styles.css
 ---
 
 ```{r init, include = F}
@@ -25,6 +28,8 @@ library(biometrics)
 
 models <- tar_read(models)
 plots <- tar_read(plots)
+
+
 ```
 
 ## Introduction
