@@ -19,6 +19,7 @@ format:
 reference-location: margin 
 citation-location: margin 
 css: css/styles.css
+mainfont: BarlowSemiCondensed-Medium
 ---
 
 ```{r init, include = F}
@@ -36,12 +37,11 @@ plots <- tar_read(plots)
 
 ### Project Summary
 
-A blurb describing the project, which team or individual is conducting the 
-research
+A blurb describing the project, which team or individual is conducting the research
 
 ### Research Question
 
-A succinct, specific research question to be answered in this report. 
+A succinct, specific research question to be answered in this report.
 
 ::: callout-important
 This must be confirmed with the researcher
@@ -49,7 +49,7 @@ This must be confirmed with the researcher
 
 ## Data Summary
 
-Tables, explanatory plots, etc to examine the data prior to analysis. 
+Tables, explanatory plots, etc to examine the data prior to analysis.
 
 ## Analysis
 
@@ -66,7 +66,3 @@ summ(models$model1)
 ```{r echo = F}
 plots$model1
 ```
-
-
-
-
