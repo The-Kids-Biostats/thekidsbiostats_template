@@ -19,6 +19,13 @@ format:
 reference-location: margin 
 citation-location: margin 
 css: css/styles.css
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: true
 mainfont: Barlow
 ---
 
