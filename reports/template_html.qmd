@@ -19,7 +19,7 @@ format:
 reference-location: margin 
 citation-location: margin 
 css: css/styles.css
-mainfont: BarlowSemiCondensed-Medium
+mainfont: Barlow
 ---
 
 ```{r init, include = F}
@@ -66,3 +66,4 @@ summ(models$model1)
 ```{r echo = F}
 plots$model1
 ```
+
